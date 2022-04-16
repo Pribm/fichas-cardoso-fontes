@@ -1,0 +1,35 @@
+.pagina-a4 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+    border: dotted rgb(190, 190, 190) 2px;
+}
+
+.ficha {
+    width: 150px;
+    height: 150px;
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border: solid black 2px;
+    background-color: aliceblue;
+}
+
+.ficha img {
+    width: 40%;
+    margin: 0;
+}
+
+.ficha p {
+    text-align: center;
+    font-size: 1em;
+    line-height: 1em;
+    margin: 0px 30px;
+}
+
+.ficha h5 {
+    font-size: 2em;
+}
